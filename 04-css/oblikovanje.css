@@ -31,3 +31,31 @@ code {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: #009966;
 }
+h1 {
+    color: #330066
+}
+#uvod {
+    padding: 2em;
+    background-color: rgb(51, 0, 102, 0.1);
+
+}
+.slika{
+    
+    font-size: 0.9em;
+    width: 40%;
+    float: right;
+    margin-left: 2em;
+    text-align: left;
+    border-radius: 50%;
+}
+.slika img {
+    width: 100%;
+    height: auto;
+}
+.slika p:last-child {
+    background-color: #cc0000;
+
+}
+a::before {
+    content: "Htcpcp_teapot.jpg" ;
+}
